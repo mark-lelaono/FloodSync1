@@ -1,0 +1,36 @@
+Package: FloodSync
+Title: Flood Mapping and Monitoring Tool
+Version: 0.1.0
+Authors@R: 
+    person("Mark", "Lelaono", "marklelaono@gmail.com", role = c("aut", "cre"))
+Description: An R package for flood mapping using a Python backend with Google Earth Engine.
+    The package provides functions to create flood maps using Google Earth Engine.
+    It allows users to visualize and analyze flood data in R.
+    The package is designed to be user-friendly and efficient, making it easy for
+    researchers and practitioners to work with flood data.
+Depends:
+    R (>= 4.0.0),
+    reticulate,
+    sf,
+    dplyr,
+    ggplot2,
+    leaflet,
+    httr,
+    jsonlite
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown,
+    covr,
+    shiny,
+    shinyjs,
+    shinycssloaders,
+    shinyWidgets,
+    shinyBS,
+    shinythemes,
+    shinycssloaders,
+    devtools
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

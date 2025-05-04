@@ -1,0 +1,26 @@
+# Python virtual environment
+floodsync_env/
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip_log.txt
+
+# R temporary files
+.Rproj.user/
+*.Rhistory
+*.Rdata
+*.Ruserdata
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Sensitive files
+*.env
+*.key
+*.pem
+credentials.json
